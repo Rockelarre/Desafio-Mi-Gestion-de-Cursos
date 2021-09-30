@@ -1,4 +1,7 @@
+// Importar dependencias
 const { Pool } = require('pg');
+
+// Nueva instancia de la clase Pool() con objeto de configuración
 const pool = new Pool({
     user:'postgres',
     host:'localhost',
